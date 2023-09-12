@@ -1,0 +1,29 @@
+name: Atualizar Contador de Dias
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Agendar para executar todos os dias à meia-noite
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v2
+
+      - name: Atualizar Contador
+        run: |
+          start_date="2023-09-13"
+          current_date=$(date -u "+%Y-%m-%d")
+          days=$(( ( $(date -ud "$current_date" +%s) - $(date -ud "$start_date" +%s) ) / 86400 ))
+
+          echo "$days" > counter.txt
+
+      - name: Commit e Push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add counter.txt
+          git commit -m "Atualizar contador de dias"
+          git push
