@@ -2,7 +2,7 @@ name: Atualizar Contador de Dias
 
 on:
   schedule:
-    - cron: "*/1 * * * *" # A cada 1 minuto (para fins de teste)
+    - cron: "* * * * *"
 
 jobs:
   update-counter:
