@@ -2,7 +2,7 @@ name: Atualizar Contador de Dias
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Agendar para executar todos os dias à meia-noite
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
