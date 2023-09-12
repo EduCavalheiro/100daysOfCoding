@@ -8,7 +8,7 @@ O objetivo deste projeto é aprimorar minhas habilidades de programação, espec
 
 ## Progresso Atual
 
-![Contador de Dias](https://img.shields.io/badge/Days%20of%20Code-$(cat counter.txt)-blue)
+![Contador de Dias](https://img.shields.io/badge/Days%20of%20Code-1-blue)
 
 ## Tópicos de Estudo
 
@@ -37,7 +37,7 @@ Você pode acompanhar o meu progresso diário no arquivo [Diario.md](Diario.md).
 
 Aqui está o contador de dias para acompanhar o meu progresso:
 
-![Contador de Dias](https://img.shields.io/badge/Days%20of%20Code-$(cat counter.txt)-blue)
+![Contador de Dias](https://img.shields.io/badge/Days%20of%20Code-1-blue)
 
 ## Agradecimentos
 
