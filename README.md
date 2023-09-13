@@ -31,7 +31,7 @@ Para manter este desafio desafiador, defini algumas regras para mim mesmo:
 
 ## Progresso Diário
 
-Você pode acompanhar o meu progresso diário no arquivo [Diario.md](Diario.md). Este é o meu diário de código, onde compartilho o que estudei, os desafios que enfrentei e as soluções que encontrei.
+Você pode acompanhar o meu progresso diário na pasta [Progress](/progress). Este é o meu local de progresso de código, onde compartilho o que estudei, os desafios que enfrentei e as soluções que encontrei.
 
 ## Contador de Dias
 

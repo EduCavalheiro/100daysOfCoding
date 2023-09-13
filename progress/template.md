@@ -1,6 +1,6 @@
 # [TEMPLATE]
 
-# Diário de Código - Dia X
+# Progresso de Código - Dia X
 
 ## Data: [Data do dia]
 
