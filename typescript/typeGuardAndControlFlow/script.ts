@@ -1,1 +1,1 @@
-console.log("Template");
+const text = "Template";
